@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #222;
+  color: aliceblue;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.quadrado {
+  text-align: center;
+  width: 50px;
+  background: #eee;
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: #eee;
+}
+
+.jogador,
+.vencedor {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  background: #eee;
+  cursor: pointer;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+}
